@@ -31,6 +31,11 @@ h1 {
     font-style: normal;
     text-align: center;
     font-size: 3rem;
+    background: linear-gradient(180deg, black, black, red);
+    -webkit-background-clip: text;
+    /* Required for Chrome/Safari */
+    background-clip: text;
+    color: transparent;
 }
 
 .email-icon img {
