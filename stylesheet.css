@@ -32,6 +32,10 @@ body {
 .right {
     width: 60%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 .left {
@@ -39,11 +43,14 @@ body {
     height: 100%;
 }
 
-.right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 20px;
+@media (max-width: 768px) {
+    .left {
+        width: 0%;
+    }
+
+    .right {
+        width: 100%;
+    }
 }
 
 .bird-image {
